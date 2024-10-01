@@ -1,26 +1,25 @@
 * {
     margin: 0;
     padding: 0;
-    border: 0;
     box-sizing: border-box;
 }
 
 header {
-    background-color:white;
-    height:75px;
-    
+    background-color: white;
+    height: 75px;
+
 }
 
 
- body {
-    background-color:rgba(211,211,211,.3)
-}  
+body {
+    background-color: rgba(211, 211, 211, .3)
+}
 
 .logo {
-    padding-top:10px;
-    padding-bottom:10px;
-    vertical-align:middle;
-    display:inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    vertical-align: middle;
+    display: inline-block;
 }
 
 .title {
@@ -28,12 +27,40 @@ header {
 }
 
 .container {
-    width:80%;
+    width: 80%;
     max-width: 1100px;
     margin: auto;
-    margin-top:50px;
-    margin-bottom:50px;
-    border-radius:10px;
-    background-color:white;
-    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.buttons-section {
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+button {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.task-adder {
+    background-color: #47adf1;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #47adf1;
+}
+
+.section-adder {
+    background-color: white;
+    color: lightgrey;
+    border: 1px solid lightgrey;
+    font-weight: bold;
+}
+
+hr {
+    color: rgba(211, 211, 211, .3)
 }
