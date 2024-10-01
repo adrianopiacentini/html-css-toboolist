@@ -50,17 +50,40 @@ button {
 .task-adder {
     background-color: #47adf1;
     color: white;
-    font-weight: bold;
-    border: 1px solid #47adf1;
+    border: #47adf1;
 }
 
 .section-adder {
     background-color: white;
     color: lightgrey;
-    border: 1px solid lightgrey;
+    border: lightgrey;
+}
+
+.button {
     font-weight: bold;
+    border: 1px solid;
 }
 
 hr {
     color: rgba(211, 211, 211, .3)
+}
+
+.to-do-list {
+    margin: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+h2 {
+    display: inline-block;
+}
+
+.task-type {
+    margin: 50px;
+}
+
+.task {
+    margin: 25px;
 }
